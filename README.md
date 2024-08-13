@@ -17,8 +17,9 @@ that improving the calculation efficiency.
 ### 1. Initial Model Development
 We started with a hand-derived equation:
 2.1. Implemented complex model using standard exponential basis functions:
-
+<!--
 ![(s + ai)e^{(\eta + \omega i)t} = e^{\mathbf{\eta}\ t}\left(\mathbf{s}\cos{\mathbf{\omega}t}-\mathbf{a}\sin{\mathbf{\omega}t}\right)+ie^{\mathbf{\eta}\ t}\left(\mathbf{s}\sin{\mathbf{\omega}t}+\mathbf{a}\cos{\mathbf{\omega}t}\right)](https://latex.codecogs.com/gif.latex?C%28t%29%3D%20%5Csum_%7Bi%20%3D%201%7D%5Ek%20c_i%20e%5E%7B%5Ceta_i%20t%7D&plus;%20%5Csum_%7Bi%20%3D%201%7D%5Ek%20%5Ctilde%7Bc_i%7D%20e%5E%7B%5Ceta%5E%5Cast_i%20t%7D)
+-->
 ```latex
 (s + ai)e^{(\eta + \omega i)t} = e^{\mathbf{\eta}\ t}\left(\mathbf{s}\cos{\mathbf{\omega}t}-\mathbf{a}\sin{\mathbf{\omega}t}\right)+ie^{\mathbf{\eta}\ t}\left(\mathbf{s}\sin{\mathbf{\omega}t}+\mathbf{a}\cos{\mathbf{\omega}t}\right)
 ```
@@ -80,4 +81,5 @@ C(t)= \sum_{i = 1}^k c_i e^{\eta_i t}+ \sum_{i = 1}^k \tilde{c_i} e^{\eta^\ast_i
 
 Then, the project has progressed from basic hand-derived equations to more sophisticated models incorporating complex parameters, Lagrangian multipliers, and critical damping properties.
 
-### 3. Further refinement of models
+### 3. Further refinement of models and sanity check
+3.1. 
